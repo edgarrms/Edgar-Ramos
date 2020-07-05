@@ -26,6 +26,11 @@ ul {
     background-color: #585656;
   }
 
+  /* welcome sectoion viewport */
+#welcome-section {
+    height: 100vh;
+}
+
 /* footer stays at the bottom of the page */
 footer {
   position: fixed;
