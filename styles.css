@@ -1,3 +1,10 @@
+/* navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -28,8 +35,10 @@ ul {
 
   /* welcome sectoion viewport */
 #welcome-section {
-    height: 100vh;
+    min-height: 55vh;
+    padding-top: 45vh;
 }
+    
 
 /* footer stays at the bottom of the page */
 footer {
@@ -42,8 +51,10 @@ footer {
   text-align: center;
 }
 
+/* media query begins below this line */
 @media (max-width: 800px) {
-   /* changes the body of the html page of smaller screens */
+
+/* changes the body of the html page of smaller screens */
     body {
         background-color: black;
     }
@@ -52,6 +63,32 @@ footer {
        
     }
 
+/* welcome section within media query */
+    #welcome-section {
+        color: white;
+    }
 
-
+/* welcome description below welcom section */
+#welcome-description {
+    color: white;
 }
+
+ /* Certification tittle */
+      #certification {
+       color: white;
+    }
+
+/* subtitle */
+#basic-html-css {
+    color: white;
+}
+
+  /* footer */
+  #footer {
+      background-color: #585656;
+    ;
+    };
+
+
+  }
+/* media query ends on top of this line */
